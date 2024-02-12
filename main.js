@@ -19,7 +19,7 @@ function NumberToLetter(nombre) {
   var integerPart = parseInt(parts[0]);
   var decimalPart = parseInt(parts[1]);
 
-  var numberToLetter = NumberToLetterIntegerPart(integerPart) + "";
+  var numberToLetter = NumberToLetterIntegerPart(integerPart) + "euros";
   
   if (decimalPart > 0) {
     numberToLetter += " et " + NumberToLetterDecimalPart(decimalPart) + " centimes";
