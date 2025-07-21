@@ -1,4 +1,3 @@
-// Fonction pour convertir le prix TTC en lettre
 function NumberToLetter(nombre) {
 
     var letter = {
